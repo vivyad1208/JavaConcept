@@ -14,8 +14,6 @@ class IteratorImpl<E> implements Iterator<E>,Enumeration<E>, Iterable<E> {
 		IteratorImpl<Integer> itr = new IteratorImpl<>(new Integer[]{23,4,5,6});
 		// itr.for
 
-		 
-		
 		// Iterable -> Using Iterator
 		for (Object obj : itr)
 			System.out.println(obj);

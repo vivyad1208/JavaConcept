@@ -12,6 +12,7 @@ public class Execution {
 	}
 
 
+	@SuppressWarnings("serial")
 	static class ExceptionDemo extends Exception {
 		public ExceptionDemo() {
 			System.out.println("Inside '"+this.toString()+"' Constructor");
@@ -23,6 +24,7 @@ public class Execution {
 	}
 
 
+	@SuppressWarnings("serial")
 	static class NewExceptionDemo extends ExceptionDemo {
 		@Override
 		public String method() throws Exception {

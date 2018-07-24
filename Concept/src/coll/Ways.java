@@ -12,7 +12,7 @@ public class Ways {
 		// Quickly Create List
 		List<String> words = Arrays.asList("JB", "Priyanka", "Vivek");
 		if (words.contains("JB")) {
-		    System.out.println("Yeah JB!");
+		    System.out.println("Its JB!");
 		}
 
 		// Check Disjoint

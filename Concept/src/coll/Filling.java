@@ -15,7 +15,7 @@ public class Filling {
 		Supplier<String> supplier = () -> UUID.randomUUID().toString();
 		List<String> list = Stream.generate(supplier).limit(100).collect(Collectors.toList());
 		for (String string : list) {
-			System.out.println(Integer.valueOf(""+atomicInt.incrementAndGet(), 2)+" -> "+string);
+			System.out.println(Integer.valueOf(String.valueOf(atomicInt.incrementAndGet()))+" -> "+string);
 		}
 	}
 }
